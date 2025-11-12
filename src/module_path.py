@@ -1,5 +1,6 @@
 from pathlib import Path
 
+
 def train_data_path() -> Path:
     """
     Returns the location of train data directory, allowing for script executions in subfolders without worrying about the
